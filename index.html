@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!--Dropdown -->
+  <div class="dropdown fixed-dropdown">
+    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+      &#x22EE;
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+      <li><a class="dropdown-item" href="#hero">Home</a></li>
+      <li><a class="dropdown-item" href="#about">About Me</a></li>
+      <li><a class="dropdown-item" href="#skills">Skills</a></li>
+      <li><a class="dropdown-item" href="#education">Education</a></li>
+      <li><a class="dropdown-item" href="#contact">Contact Me</a></li>
+    </ul>
+  </div>
+
+  <!-- Hero Section -->
+  <header id="hero" class="hero">
+    <div class="hero-content">
+      <img src="Images/Chaity.jpg" alt="Your Picture" class="hero-img">
+      <h1 class="display-1 fw-bold mt-3">Shahanaz Parvin Chaity</h1>
+      <p class="fs-4">Future IT Project Manager | CSE Student</p>
+      <a href="#about" class="btn btn-primary btn-lg mt-3">Learn More</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="section bg-light">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        I am a 3rd-year Computer Science and Engineering student with a strong passion for project management. 
+        Through my academic journey, I have gained a solid understanding of software development processes, 
+        team coordination, and technical problem-solving. I am eager to develop project management skills, 
+        particularly in Agile methodologies, task scheduling, and risk management.
+        In addition to my academic work, I have actively participated in team-based projects, where I took on leadership roles, coordinated tasks, and ensured timely completion of deliverables. I thrive in collaborative environments and am passionate about creating synergies among team members to achieve shared goals. I am also committed to continuous improvement, seeking out opportunities to enhance my knowledge in project management tools, techniques, and best practices. My goal is to contribute effectively to a dynamic team and build a career that blends my technical expertise with my leadership capabilities.   
+
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+<section id="skills" class="section bg-info">
+  <div class="container">
+    <h2 class="text-center text-light">Skills & Experience</h2>
+    <img src="Images/agile-project-management.jpg" class="rounded" alt="agile methodology" style="width: 100%; padding: 5px;">
+    <div class="row p-3">
+      <div class="col-md-6">
+        <h4 class="text-white p-3">Agile Project Management</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-primary" style="width: 80%;">80%</div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h4 class="text-white p-3">Team Leadership</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-warning" style="width: 85%;">85%</div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h4 class="text-white p-3">Risk Management</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-danger" style="width: 75%;">75%</div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h4 class="text-white p-3">Task Scheduling</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-success" style="width: 70%;">70%</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Education Section -->
+  <section id="education" class="section bg-muted">
+    <div class="container">
+      <h2 class="text-center">Education</h2>
+      <ul class="list-group">
+        <li class="list-group-item">Bachelor of Science in Computer Science - Varendra University</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section bg-light">
+    <div class="container text-center">
+      <h2>Contact Me</h2>
+      <form>
+        <div class="mb-3">
+          <input type="text" class="form-control" placeholder="Your Name">
+        </div>
+        <div class="mb-3">
+          <input type="email" class="form-control" placeholder="Your Email">
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 I. S. M Rahik. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
